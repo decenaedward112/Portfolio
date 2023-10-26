@@ -53,13 +53,13 @@ $(window).load(function () {
     });
 })
 
-$("html").niceScroll({
-    mousescrollstep: 70,
-    cursorcolor: "#ea9312",
-    cursorwidth: "5px",
-    cursorborderradius: "10px",
-    cursorborder: "none",
-});
+// $("html").niceScroll({
+//     mousescrollstep: 70,
+//     cursorcolor: "#ea9312",
+//     cursorwidth: "5px",
+//     cursorborderradius: "10px",
+//     cursorborder: "none",
+// });
 
 
 
@@ -80,34 +80,34 @@ $(function () {
 
 
 
-(function ($) {
-    $(document).ready(function () {
+// (function ($) {
+//     $(document).ready(function () {
 
        
-        $(".navbar").hide();
+//         $(".navbar").hide();
 
         
-        $(function () {
-            $(window).scroll(function () {
+//         $(function () {
+//             $(window).scroll(function () {
 
               
-                if ($(this).scrollTop() > 40) {
-                    $('.navbar')
-                        .removeClass('animated fadeOutUp')
-                        .addClass('animated fadeInDown')
-                        .fadeIn();
+//                 if ($(this).scrollTop() > 40) {
+//                     $('.navbar')
+//                         .removeClass('animated fadeOutUp')
+//                         .addClass('animated fadeInDown')
+//                         .fadeIn();
 
-                } else {
-                    $('.navbar')
-                        .removeClass('animated fadeInDown')
-                        .addClass('animated fadeOutUp')
-                        .fadeOut();
-                }
-            });
-        });
+//                 } else {
+//                     $('.navbar')
+//                         .removeClass('animated fadeInDown')
+//                         .addClass('animated fadeOutUp')
+//                         .fadeOut();
+//                 }
+//             });
+//         });
 
-    });
-}(jQuery));
+//     });
+// }(jQuery));
 
 
 
