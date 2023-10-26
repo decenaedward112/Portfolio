@@ -95,7 +95,7 @@ hr.separetor {
   background: url(../img/trianglify-background.svg) no-repeat; /*your background image*/
   background-size: cover;
   max-height: 880px;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .herocontent {
@@ -181,7 +181,7 @@ blockquote p {
 }
 
 .quote {
-  overflow: hidden;
+  overflow: scroll;
 }
 .quote h5 {
   margin-bottom: 5px;
